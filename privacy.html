@@ -1,18 +1,84 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>畅行优车 - 隐私政策</title>
     <style>
-        body {max-width: 800px; margin: 0 auto; padding: 20px; font-family: "Microsoft YaHei",sans-serif; line-height: 1.8; color: #333;}
-        h1 {text-align: center; font-size: 22px; margin-bottom: 30px;}
-        h2 {font-size: 18px; margin-top: 25px;}
-        table {width: 100%; border-collapse: collapse; margin: 15px 0;}
-        table,th,td {border:1px solid #ccc;}
-        th,td {padding:8px 12px; text-align:left;}
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: "Microsoft YaHei", sans-serif;
+            line-height: 1.8;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 25px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ccc;
+        }
+
+        th,
+        td {
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        .table-scroll {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            width: 100%;
+            margin: 15px 0;
+        }
+
+        .table-scroll table {
+            width: max-content;
+            min-width: 100%;
+            margin: 0;
+        }
+
+        .table-scroll th,
+        .table-scroll td {
+            white-space: nowrap;
+        }
+        .table-scroll td {
+            white-space: normal;
+            min-width: 100px;
+            max-width: 140px;
+            word-break: break-all;
+        }
+        .table-scroll td:nth-child(3),
+        .table-scroll td:nth-child(7) {
+            white-space: normal;
+            min-width: 180px;
+            max-width: 240px;
+            word-break: break-all;
+        }
     </style>
 </head>
+
 <body>
     <h1>畅行优车 隐私协议</h1>
     <p>生效日期：2025年03月31日</p>
@@ -20,11 +86,33 @@
     <h2>第一章 数据收集范围</h2>
     <p>1.1 直接收集信息</p>
     <table>
-        <tr><th>信息类别</th><th>具体内容示例</th><th>使用场景</th></tr>
-        <tr><td>用户身份信息</td><td>手机号、姓名、<strong style="color:red;">身份证号</strong>、营业执照</td><td>账号注册、实名认证、企业资质审核</td></tr>
-        <tr><td>车辆交易信息</td><td>VIN码、检测报告、竞拍出价记录</td><td>车辆信息展示、交易履约、纠纷处理</td></tr>
-        <tr><td>支付信息</td><td><strong style="color:red;">银行卡号</strong>（加密存储）、交易流水号</td><td>保证金缴纳、尾款结算</td></tr>
-        <tr><td>设备信息</td><td>IMEI、MAC地址、GPS定位（精确到城市级）</td><td>风险控制、物流服务匹配</td></tr>
+        <tbody>
+            <tr>
+                <th>信息类别</th>
+                <th>具体内容示例</th>
+                <th>使用场景</th>
+            </tr>
+            <tr>
+                <td>用户身份信息</td>
+                <td>手机号、姓名、<strong style="color:red;">身份证号</strong>、营业执照</td>
+                <td>账号注册、实名认证、企业资质审核</td>
+            </tr>
+            <tr>
+                <td>车辆交易信息</td>
+                <td>VIN码、检测报告、竞拍出价记录</td>
+                <td>车辆信息展示、交易履约、纠纷处理</td>
+            </tr>
+            <tr>
+                <td>支付信息</td>
+                <td><strong style="color:red;">银行卡号</strong>（加密存储）、交易流水号</td>
+                <td>保证金缴纳、尾款结算</td>
+            </tr>
+            <tr>
+                <td>设备信息</td>
+                <td>IMEI、MAC地址、GPS定位（精确到城市级）</td>
+                <td>风险控制、物流服务匹配</td>
+            </tr>
+        </tbody>
     </table>
 
     <p>1.2 自动获取信息</p>
@@ -48,13 +136,72 @@
     <h2>第三章 数据共享与委托处理</h2>
     <p>3.1 第三方合作清单</p>
     <table>
-        <tr><th>合作方类型</th><th>共享数据范围</th><th>合作目的</th></tr>
-        <tr><td>支付机构</td><td>交易金额、订单号</td><td>资金划转</td></tr>
-        <tr><td>物流服务商</td><td>收件人姓名、地址、车辆VIN码</td><td>车辆运输服务</td></tr>
-        <tr><td>数据分析服务商</td><td>用户行为数据（匿名化）</td><td>运营效果优化</td></tr>
+        <tbody>
+            <tr>
+                <th>合作方类型</th>
+                <th>共享数据范围</th>
+                <th>合作目的</th>
+            </tr>
+            <tr>
+                <td>支付机构</td>
+                <td>交易金额、订单号</td>
+                <td>资金划转</td>
+            </tr>
+            <tr>
+                <td>物流服务商</td>
+                <td>收件人姓名、地址、车辆VIN码</td>
+                <td>车辆运输服务</td>
+            </tr>
+            <tr>
+                <td>数据分析服务商</td>
+                <td>用户行为数据（匿名化）</td>
+                <td>运营效果优化</td>
+            </tr>
+        </tbody>
     </table>
 
-    <p>3.2 跨境传输声明</p>
+    <p>3.2 第三方信息共享清单</p>
+    <div class="table-scroll">
+        <table>
+            <tbody>
+                <tr>
+                    <th>公司名称</th>
+                    <th>产品</th>
+                    <th>共享信息名称</th>
+                    <th>使用目的</th>
+                    <th>使用场景</th>
+                    <th>提供方式</th>
+                    <th>隐私政策链接</th>
+                </tr>
+                <tr>
+                    <td>深圳市腾讯计算机系统有限公司</td>
+                    <td>腾讯浏览服务 X5 网页引擎SDK</td>
+                    <td>设备信息（AndroidID、国际设备识别码（IMEI）、国际移动用户识别码（IMSI）、网卡地址（MAC地址）、用户机型、屏幕尺寸、操作系统版本号、目标API（targetAPI）、网络类型(ApnType)、网络变化监听广播以及Wifi的mac地址、设备已安装应用列表）、SD卡
+                    </td>
+                    <td>使用腾讯浏览器X5内核进行网页浏览</td>
+                    <td>浏览历史停留、安全围栏、积分中心、车品商城页面</td>
+                    <td>SDK采集</td>
+                    <td><a href="https://rule.tencent.com/rule/preview/1c4e2b4b-d0f6-4a75-a5c6-1cfce00a390d"
+                            target="_blank">https://rule.tencent.com/rule/preview/1c4e2b4b-d0f6-4a75-a5c6-1cfce00a390d</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>深圳市腾讯计算机系统有限公司</td>
+                    <td>微信OpenSDK Android</td>
+                    <td>设备信息（IMEI、MAC、AndroidID、IDFA、OpenUDID、GUID、SIM卡IMSI、地理位置）
+                    </td>
+                    <td>微信分享</td>
+                    <td>分享车辆详情</td>
+                    <td>SDK采集</td>
+                    <td><a href="https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8"
+                            target="_blank">https://support.weixin.qq.com/cgi-bin/mmsupportacctnodeweb-bin/pages/RYiYJkLOrQwu0nb8</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>3.3 跨境传输声明</p>
     <ul>
         <li>如因业务需要向境外传输数据，将单独获取同意并签订标准合同条款（SCCs）</li>
     </ul>
@@ -105,5 +252,8 @@
         <li>开发者联系方式：邮箱：345744741@shturl 或 cx-chenwei@shturl.cc/KRSS</li>
     </ul>
     <p style="margin-top:40px;text-align:right;">武汉卓木鸟科技有限公司</p>
+
+
 </body>
+
 </html>
